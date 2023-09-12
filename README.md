@@ -1,7 +1,9 @@
 # Object-Oriented Option Framework for Robotics Manipulation in Clutter
 
-The Official Code for "*Object-Oriented Option Framework for Robotics Manipulation in Clutter*"
-![](./resources/iros_2023_poster.png)
+------
+
+The Official Code for "*Object-Oriented Option Framework for Robotics Manipulation in Clutter*", which is published at IROS 2023.
+![](./resources/Graphic_Abstract.png)
 
 ## Code Structure
 O3F
@@ -52,3 +54,25 @@ models/execute.zip
     ```
     * The models of op will be saved at `op_model`.
     * The tensorboard logs of op will be saved at `op_train`.
+
+------
+
+#### Citation
+
+```
+    @inproceedings{o3f/iros/pang,
+      author    = {Jing-Cheng Pang and
+                   Si-Hang Yang and
+                   Xiong-Hui Chen and
+                   Xinyu Yang and
+                   Yang Yu and 
+                   Mas Ma and
+                   Ziqi Guo and
+                   Howard Yang and 
+                   Bill Huang},
+      title     = {Object-Oriented Option Framework for Robotics Manipulation in Clutter},
+      booktitle = {{IEEE/RSJ} International Conference on Intelligent Robots and Systems,
+                  {IROS}},
+      year      = {2023}}
+
+```
